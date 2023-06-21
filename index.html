@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/74c1b351cd.js" crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
+    <style>
+        h2{
+            font-weight: 600;
+        }
+        .registerbtn button{
+            position: fixed;
+            margin-top: 635px;
+            margin-left: 1220px;
+            border-radius: 20px;
+            border: 0px;
+            background-color: #a010c4;
+            padding: 15px 10px;
+        }
+        .registerbtn button:hover{
+            background-color: #deaeeb;
+        }
+
+        .registerbtn a{
+            text-decoration:none ;
+            color: #deaeeb;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .registerbtn a:hover{
+            color: #3e066b;
+        }
+
+        
+        #sitemap .sitemap ul li a{
+            text-decoration: none;
+        }
+        .dropbtn {
+            background-color: rgb(30, 0, 54);
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            }
+
+        .dropbtn:hover, .dropbtn:focus {
+        background-color: #3e066b;
+        }
+
+        .dropdown {
+        position: relative;
+        display: block;
+        margin-left: 185px;
+        }
+
+        .dropdown-content {
+        display: none;
+        position: fixed;
+        background-color: #3e066b;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-top: 50px;
+        }
+
+        .dropdown-content a {
+        color: #deaeeb;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        }
+
+        .dropdown-content a:hover {background-color: rgb(30, 0, 54);}
+
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .dropdown:hover .dropbtn {background-color: rgb(30, 0, 54);}
+
+    </style>
+</head>
+<body style="background-color: #3e066b;font-family: 'Montserrat', sans-serif;" >
+
+    <!-- -----NAVIGATION OF THE WEBSITE------ -->
+    <div class="fullnavigation">
+        <div class="head">
+            <ul>
+                <li><img src="images/ABClogo.png" alt="logo" width="80" height="60"></li>
+                <li><h2>ABC LEARNING CENTER</h2></li>
+                <li style="float:right;">
+                    <div class="search" style="margin: 0;">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#aboutus">ABOUT US</a></li>
+                <div class="dropdown">
+                    <li><a href="#courses" class="dropbtn">COURSES</a></li>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#courses">COURSES</a>
+                        <a href="#html_courses_details">HTML Details</a>
+                        <a href="#html_courses_schedule">HTML Schedule</a>
+                        <a href="#MSOffice_courses_details">MS OFFICE Details</a>
+                        <a href="#MSOffice_courses_schedule">MS OFFICE Schedule</a>
+                    </div>
+
+                </div>
+                <li><a href="#contactus">CONTACT US</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <div class="tab-content">
+        <!-- -----HOME PAGE----- -->
+        <div id="home" class="tab-pane fade in active">
+
+            <div class="registerbtn">
+                <button><a href="#reg_page">Register Now</a></button>
+            </div>
+
+            <!-- this the detail section of the home page -->
+            <div class="top">
+                <h1>WELCOME TO <span>ABC LEARNING CENTER</span></h1>
+                <img src="images/welcomenew.jpg" alt="welcome image">
+                <p>We are dedicated to providing a constructive, 
+                    supportive learning atmosphere that fosters quality in learning and allows 
+                    learning professionals to develop, technical skills, critical thinking skills, 
+                    professional development, discipline, and leadership.</p>
+                <p id="title">WE CAN TAKE YOUR EDUCATION TO THE NEXT LEVEL</p>
+                <button><a href="#aboutus">More</a></button>
+            </div>
+            <div class="middle">
+                <h2>LEARNING OUTCOME</h2>
+                <table>
+                    <tr>
+                        <th><img src="images/course_recognition.jpg" alt="course recognition" width="300" height="150"></th>
+                        <th><img src="images/job.jpg" alt="job opportunities" width="300" height="150"></th>
+                        <th><img src="images/skillfull_worker.jpg" alt="skillfull_worker" width="300" height="150"></th>
+        
+                    </tr>
+                    <tr>
+                        <th>COURSE RECOGNITION</th>
+                        <th>JOB OPPORTUNITIES</th>
+                        <th>SKILLFULL WORKER</th>
+                    </tr>
+                    <tr>
+                        <td>Our IT Training program has a Globle Recognition with a World Wide Accepted Certificates. We certify you with the best contents of the Courses</td>
+                        <td>As now the World is moving mainly with technology based on IT. There are vast  number of job opportunities</td>
+                        <td>When most institutes forcus more on theory, We forcus more on the practical side. So we dropout students as Skillfull worker than anyone other in the field</td>
+                    </tr>
+                </table>
+            </div>
+           
+  
+
+        </div>
+        <!-- ------ABOUT US PAGE----- -->
+        <div id="aboutus" class="tab-pane fade">
+            <div class="aboutus-top">
+                <h1><span>ABC</span> SINCE 2015</h1>
+                <div class="aboutus-bg-pic">
+                    
+                    <img src="images/historyABC.jpg" alt="history of abc" width="100%">
+                    <p>ABC is a primier IT Training center. We keep abreast of global trends and constantly upgrade our products to suit today’s needs.
+                        Over the years we have developed our identity while proving to be a leader in IT Tranining and education.
+                        We have empowered thousands to carve better futures for themselves. <span>The ABC has been functioning for 7 years having established in 2015</span></p>
+                </div>     
+            </div>
+            <div class="aboutus-middle">
+                <h2>GALLERY</h2>
+                <table class="aboutus">
+                    <tr>
+                        <th><img src="images/UNI.jpg" alt="institute" width="250"></th>
+                        <th><a href="#html_courses_details"><img src="images/htmlnew.jpg" alt="hetml" width="250" height="169"></a></th>
+                        <th><a href="#MSOffice_courses_details"><img src="images/MSoffice.jpg" alt="ms office" width="250" height="169"></a></th>
+                        <th><img src="images/accoomadation.jpg" alt="accomadation" width="250"></th>
+                    </tr>
+                    
+                </tr>
+                </table>
+            </div>
+          
+       
+            <div class="aboutus-bottom-2">
+    
+                <table>
+                    <tr>
+                        <th>VISION</th>
+                        <th>MISSION</th>
+                    </tr>
+                    <tr>
+                        <td>&#8226; Become an internationally renowned, leading Technical Education and Training  provider.</td>
+                        <td>&#8226; To discover and disseminate knowledge; enhance innovation; and promote a culture of broad inquiry throughout and beyond the institute through engagement and collaboration with industry and community.</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- ------COURSES PAGE------- -->
+        <div id="courses" class="tab-pane fade">
+            <h1 class="courses-heading">COURSES</h1>
+            <section>
+                <table>
+                    <tr>
+                        <th>        
+                            <div class="html">
+                            <img src="images/html.png" alt="html" width="500" height="400">
+                            <h2>HTML</h2>
+                            <p>The HyperText Markup Language or HTML is the standard markup language for documents designed
+                                to be displayed in a web browser. It can be assisted by technologies such as 
+                                Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+                            <button><a href="#html_courses_details">Courses Details</a></button>
+                            <button><a href="#html_courses_schedule">Courses Schedule</a></button>
+                            </div>
+                        </th>
+                        <th>        
+                            <div class="MS">
+                            <img src="images/office.png" alt="ms office" width="500" height="400">
+                            <h2>MICROSOFT OFFICE</h2>
+                            <p>Microsoft Office, or simply Office, is a family of client software, server software,
+                                and services developed by Microsoft.t contains a word processor (Word),
+                                a spreadsheet program (Excel) and a presentation program (PowerPoint) and so on.</p>
+                            <button><a href="#MSOffice_courses_details">Courses Details</a></button>
+                            <button><a href="#MSOffice_courses_schedule">Courses Schedule</a></button>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+            </section>
+            
+
+
+        </div>
+        <!-- ------HTML DETAILS PAGE------- -->
+        <div id="html_courses_details" class="tab-pane fade">
+            <h1 class="details-heading">HTML</h1>
+            <div class="details-top">
+                <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. <br>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.</p>
+                <img src="images/html.png" alt="">
+            </div>
+            <div class="details-bottom">
+                <table style="width: auto;">
+                    <tr>
+                        <th>
+                            <div class="course-detail">
+                                <h2>Course Duration</h2>
+                                <p>2 YEARS</p>
+                                <i class="fa fa-clock-o" style="font-size:48px;color:#deaeeb"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="course-detail">
+                                <h2>Courses Next Intake</h2>
+                                <p>May 2023</p>
+                                <i class="fa fa-calendar" style="font-size:48px;color:#deaeeb"></i>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="course-detail">
+                                <h2>Courses Fee</h2>
+                                <p>$2000</p>
+                                <i class="fa fa-dollar" style="font-size:48px;color:#deaeeb"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="course-detail">
+                                <h2>Qualification Requirement</h2>
+                                <p>GCE A/L PASS</p>
+                                <i class="fa fa-book" style="font-size:48px;color:#deaeeb"></i>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+                <button><a href="#html_courses_schedule">Course Schedule</a></button>
+                <div class="register">
+                    <button><a href="#reg_page">Register Now</a></button>
+                </div>
+            </div>
+        </div>
+        <!-- -------MS OFFICE DETAILS PAGE------- -->
+        <div id="MSOffice_courses_details" class="tab-pane fade">
+            <h1 class="details-heading">MICROSOFT OFFICE</h1>
+            <div class="details-top">
+                <p>Microsoft Office, or simply Office, is a family of client software, server software, and services developed by Microsoft. It was first announced by Bill Gates on August 1, 1988.<br>It contains a word processor (Word), a spreadsheet program (Excel) and a presentation program (PowerPoint), an email client (Outlook), a database management system (Access), and a desktop publishing app (Publisher).<br>Over the years, Office applications have grown substantially closer with shared features such as a common spell checker, Object Linking and Embedding data integration and Visual Basic for Applications scripting language.</p>
+                <img src="images/office.png" alt="">
+            </div>
+            <div class="details-bottom">
+                <table style="width: auto;">
+                    <tr>
+                        <th>
+                            <div class="course-detail">
+                                <h2>Course Duration</h2>
+                                <p>2 YEARS</p>
+                                <i class="fa fa-clock-o" style="font-size:48px;color:#deaeeb"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="course-detail">
+                                <h2>Courses Next Intake</h2>
+                                <p>May 2023</p>
+                                <i class="fa fa-calendar" style="font-size:48px;color:#deaeeb"></i>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="course-detail">
+                                <h2>Courses Fee</h2>
+                                <p>$2000</p>
+                                <i class="fa fa-dollar" style="font-size:48px;color:#deaeeb"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="course-detail">
+                                <h2>Qualification Requirement</h2>
+                                <p>GCE A/L PASS</p>
+                                <i class="fa fa-book" style="font-size:48px;color:#deaeeb"></i>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+                <button><a href="#MSOffice_courses_schedule">Course Schedule</a></button>
+                <div class="register">
+                    <button><a href="#reg_page">Register Now</a></button>
+                </div>
+            </div>
+        </div>
+        <!-- ------HTML SCHEDULE PAGE--------- -->
+        <div id="html_courses_schedule" class="tab-pane fade">
+            <h1 class="schedule-heading">HTML SCHEDULE</h1>
+            <div class="schedule-bottom">
+                <table>
+                    <tr>
+                        <th>
+                            <div class="syllabus-topics">
+                                <h2>Syllabus</h2>
+                                <ul style="padding: 20px;">
+                                    <li style="padding: 20px;">Topic 1:Structure text and image content for the web using HTML5</li>
+                                    <li style="padding: 20px;">Topic 2:Learn semantic markup new to the HTML standard</li>
+                                    <li style="padding: 20px;">Topic 3:Style a web page using Cascading Style Sheets (CSS)</li>
+                                    <li style="padding: 20px;">Topic 4:Create hyperlinks to link to other pages</li>
+                                    <li style="padding: 20px;">Topic 5:Make web pages accessible and well-formed</li>
+                                </ul>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="timetable">
+                                <h2>Timetable</h2>
+                                <ul style="padding: 20px;">
+                                    <li style="padding: 20px;">01st May - 10th May :- Topic 1</li>
+                                    <li style="padding: 20px;">10th May - 25th May :- Topic 2</li>
+                                    <li style="padding: 20px;">26th May- 30th May :- Topic 3</li>
+                                    <li style="padding: 20px;">01st June - 15th June :- Topic 4</li>
+                                    <li style="padding: 20px;">16th June - 30th June :- Topic 5</li>
+                                </ul>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="lecturers">
+                                <h2>lecturers</h2>
+                                <img src="images/lecturer 1.jpg" alt="lecturer 1">
+                                <h3>Mr.Jason</h3>
+                                <img src="images/lecturer 2.jpg" alt="lecturer 2">
+                                <h3>Mr.Simth</h3>
+                                <img src="images/lecturer 3.jpg" alt="lecturer 3">
+                                <h3>Mr.Stallone</h3>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- MS OFFICE SCHEDULE PAGE------- -->
+        <div id="MSOffice_courses_schedule" class="tab-pane fade">
+            <h1 class="schedule-heading">HTML SCHEDULE</h1>
+            <div class="schedule-bottom">
+                <table>
+                    <tr>
+                        <th>
+                            <div class="syllabus-topics">
+                                <h2>Syllabus</h2>
+    
+                                <ul style="padding: 20px;">
+                                    <li style="padding: 20px;">Topic 1:Introduction to Microsoft Word Interface</li>
+                                    <li style="padding: 20px;">Topic 2:Paragraph Formatting in Microsoft Word</li>
+                                    <li style="padding: 20px;">Topic 3:Introduction to Microsoft PowerPoint Interface</li>
+                                    <li style="padding: 20px;">Topic 4:Paragraph Formatting in Microsoft PowerPoint</li>
+                                    <li style="padding: 20px;">Topic 5:Introduction to Microsoft Excel Interface</li>
+                                </ul>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="timetable">
+                                <h2>Timetable</h2>
+                                <ul style="padding: 20px;">
+                                    <li style="padding: 20px;">01st May - 10th May :- Topic 1</li>
+                                    <li style="padding: 20px;">10th May - 25th May :- Topic 2</li>
+                                    <li style="padding: 20px;">26th May- 30th May :- Topic 3</li>
+                                    <li style="padding: 20px;">01st June - 15th June :- Topic 4</li>
+                                    <li style="padding: 20px;">16th June - 30th June :- Topic 5</li>
+                                </ul>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="lecturers">
+                                <h2>Lecturers</h2>
+                                <img src="images/lecturer 4.jpg" alt="lecturer 4">
+                                <h3>Miss.Stephani</h3>
+                                <img src="images/lecturer 5.jpg" alt="lecturer 5">
+                                <h3>Miss.Angella</h3>
+                                <img src="images/lecturer 6.jpg" alt="lecturer 6">
+                                <h3>Miss.Camelia</h3>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- ------CONTACT US PAGE----- -->
+        <div id="contactus" class="tab-pane fade">
+            <div class="contactus-top">
+                <h1 class="contactus-heading">GET IN TOUCH</h1>
+                <table>
+                    <tr>
+                        <th>
+                            <div class="location">
+                                <i class='fas fa-map-marker-alt' style='font-size:60px;color:#b911e7;'></i><br>
+        
+                                <h2>ADDRESS</h2>
+                                <P>4741 Solano Way,<br> Fair Oaks, California(CA), 95628</P>
+                            </div>
+                        </th>
+                    
+                    
+                        <th id="phone">
+                            <div class="phone">
+                                <i class='fas fa-phone' style='font-size:60px;color:#b911e7'></i>
+                                <h2>PHONE</h2>
+                                <P>953-401-9074</P>
+        
+                            </div>
+                        </th>
+                
+                    
+                        <th>
+                            <div class="email">
+                                <i class="fa fa-envelope" style="font-size:60px;color:#b911e7"></i>
+                                <h2>EMAIL</h2>
+                                <p><a href="">ABCLearningCenter@example.com</a></p>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            <div class="contactus-middle">
+                <table class="map-inquiry">
+                    <tr>
+                        <th>
+                            <div class="map">
+                                <h2>GOOGLE MAP</h2>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3115.8891531544227!2d-121.30025597847607!3d38.65142901335198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ade7065b06fe1%3A0x8c2b6bd9c28a4c34!2s4741%20Solano%20Way%2C%20Fair%20Oaks%2C%20CA%2095628%2C%20USA!5e0!3m2!1sen!2slk!4v1664788763552!5m2!1sen!2slk" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        
+                            </div>
+        
+                        </th>
+                        <th>
+                            <div class="inquiry">
+                                <h2>INQUIRE NOW</h2>
+                                <div class="inquiryBox">
+                                    <p>Name</p>
+                                    <form action="/action_page.php">
+                                        <input type="text" placeholder="name..." name="name">
+                                    </form>
+                                    <p>Email</p>
+                                    <form action="/action_page.php">
+                                        <input type="text" placeholder="email..." name="email">
+                                    </form>
+                                    <p>Description</p>
+                                    <form action="/action_page.php">
+                                        <input class="description" type="text" placeholder="" name="Description">
+                                    </form>
+                                    <button class="submit"><a href="">SUBMIT</a></button>
+                                </div>
+        
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            <div class="contactus-bottom">
+                <h2 id="socialmedia">CONNECT WITH US IN SOCIAL MEDIA</h2>
+                <table>
+                    <tr>
+                        <th>
+                            <div class="instagram">
+                                <i class="fa-brands fa-instagram" style="margin-left: 55px;"></i>
+                                <h2 style="margin-left: 20px;"> <a href=""style="color: #deaeeb;text-decoration:none">INSTAGRAM</a> </h2>
+                            </div>  
+                        </th>
+                        <th>
+                            <div class="facebook">
+                                <i class="fa-brands fa-facebook" style="margin-left: 50px;"></i>
+                                <h2 style="margin-left: 20px;"><a href="" style="color: #deaeeb;text-decoration:none">FACEBOOK</a></h2>
+        
+                            </div>
+                        </th>
+                        <th>
+                            <div class="twitter">
+                                <i class="fa-brands fa-twitter" style="margin-left: 30px;"></i>
+                                <h2 style="margin-left: 20px;"> <a href="" style="color: #deaeeb;text-decoration:none">TWITTER</a> </h2>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="youtube">
+                                <i class="fa-brands fa-youtube" style="margin-left: 35px;"></i>
+                                <h2 style="margin-left: 20px;"> <a href="" style="color: #deaeeb;text-decoration:none">YOUTUBE</a></h2>
+                            </div>
+                        </th>
+        
+                    </tr>
+        
+                </table>
+        
+            </div>
+        </div>
+        <!-- --------PRIVACY POLICY PAGE----- -->
+        <div id="privacypolicy" class="tab-pane fade">
+            <div class="privacypolicy">
+                <h1>PRIVACY POLICY</h1>
+                <img src="images/privacy.jpg" alt="privacy image" width="100%">
+                <p class="paragraph">Thank you for choosing to be part of our community at ABC INSTITUTE CENTER. We are committed to protecting your personal information and your right to privacy.</p>
+                <table>
+                    <tr>
+                        <th>
+                            <div class="privacy1">
+                                <h2>What information we collect</h2>
+                                <p>We collect personal information that you voluntarily provide to us when you express an interest in obtaining information about us or our products and Services, when you participate in activities on the Website or otherwise when you contact us.</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="privacy2">
+                                <h2>How do we use your information</h2>
+                                <p>We process your information for purposes based on legitimate business interests, the fulfillment of our contract with you, compliance with our legal obligations, and/or your consent.</p>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="privacy3">
+                                <h2>With whom we share information</h2>
+                                <p>We only share information with your consent, to comply with laws, to provide you with services, to protect your rights, or to fulfill business obligations.</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="privacy4">
+                                <h2>How long do we keep your information</h2>
+                                <p> We aim to protect your personal information through a system of organizational and technical security measures.</p>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+        
+        
+            </div>
+        </div>
+        <!-- ----SITEMAP PAGE------- -->
+        <div id="sitemap" class="tab-pane fade">
+            <div class="sitemap">
+                <h1>SITEMAP</h1>
+                <table>
+                    <tr>
+                        <th>
+                            <div class="SitemapHome">
+                                <h2>HOME</h2>
+                                <ul>
+                                    <li><a href="#home">Welcome to ABC</a></li>
+                                    <li><a href="#home">Learning Outcome</a></li>
+                                    <li><a href="#home">Reviews about ABC</a></li>
+                                </ul>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="SitemapAboutus">
+                                <h2>ABOUT US</h2>
+                                <ul>
+                                    <li><a href="#aboutus">Institute INTRO</a></li>
+                                    <li><a href="#aboutus">Gallery</a></li>
+                                    <li><a href="#aboutus">Acheivements</a></li>
+                                    <li><a href="#aboutus">Vision</a></li>
+                                    <li><a href="#aboutus">Misson</a></li>
+                                </ul>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="SitemapCourses">
+                                <h2>COURSES</h2>
+                                <ul>
+                                    <li><a href="#courses">HTML</a></li>
+                                    <li><a href="#html_courses_details">HTML Details</a></li>
+                                    <li><a href="#html_courses_schedule">HTML Schedule</a></li>
+                                    <li><a href="#courses">MICROSOFT OFFICE</a></li>
+                                    <li><a href="#MSOffice_courses_details">MICROSOFT OFFICE Details</a></li>
+                                    <li><a href="#MSOffice_courses_schedule">MICROSOFT OFFICE Schedule</a></li>
+                                </ul>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="SitemapContactus">
+                                <h2>CONTACT US</h2>
+                                <ul>
+                                    <li><a href="#contactus">Address</a></li>
+                                    <li><a href="#contactus">Phone</a></li>
+                                    <li><a href="#contactus">Email</a></li>
+                                    <li><a href="#contactus">Map</a></li>
+                                    <li><a href="#contactus">Inquiry</a></li>
+                                    <li><a href="#contactus">Social Media</a></li>
+                                </ul>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+                <div class="privacysitemap">
+                    <table>
+                        <tr>
+                            <th>
+                                <div class="SitemapPrivacyPolicy">
+                                    <h2>PRIVACY POLICY</h2>
+                                    <ul>
+                                        <li><a href="#privacypolicy">What information we collect</a></li>
+                                        <li><a href="#privacypolicy">How do we use your information</a></li>
+                                        <li><a href="#privacypolicy">With whom we share information</a></li>
+                                        <li><a href="#privacypolicy">How long do we keep your information</a></li>
+                                    </ul>
+                                </div>
+                            </th>
+        
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- -------------REGISTRATION PAGE--------- -->
+        <div id="reg_page" class="tab-pane fade" onload="showall()">
+            <div class="form-heading">
+                <h1>LEAD REGISTRATION FORM</h1>
+                <h2>Fill out the Registration Form</h2>
+            </div>
+            <div class="Reg_form">
+                <img class="regBG" src="images/Regbg.jpg" alt="Registration bg image" width="100%" height="1050px">
+                <form name="register" method="get" onsubmit="window.location.reload()" action="thankyou.html">
+                    <div class="name_det">
+        
+                        <h3>Student Name</h3>
+                        <input type="text" name="firstname" placeholder="First Name" size="15" required/>
+                        <input type="text" name="middlename" placeholder="Middle Name" size="15" required/>
+                        <input type="text" name="lastname" placeholder="Last Name" size="15" required/>
+        
+                        <h3>Date of Birth</h3>
+                        <input type="date" id="date_of_birth" name="date-of-birth">
+
+                    
+                        <h3>Gender</h3>
+                        <select name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                        
+        
+                        <h3>Address</h3>
+                        <input type="text" name="address" placeholder="Address" size="15" required/>
+                        <input type="text" name="zipcode" placeholder="Postal/Zip Code" size="15" required/>
+        
+                        <h3>Email ID</h3>
+                        <input type="text" name="email" placeholder="example@example.com" size="15" required/>
+        
+                        <h3>Phone Number</h3>
+                        <input type="text" name="number" placeholder="+94xx-xxxxxxx" size="15" required/>
+                    </div>
+                    <div class="name_det">
+                        <h3>Qualifications</h3>
+                        <select name="qualifications">
+                            <option value="GCE O/L">GCE O/L</option>
+                            <option value="GCE A/L">GCE A/L</option>
+                            <option value="Diploma">Diploma</option>
+                            <option value="Higher Diploma">Higher Diploma</option>
+                        </select>
+                    </div>
+                    <div class="name_det">
+                        <h3>Courses</h3>
+                        <select name="courses">
+                            <option value="html">HTML</option>
+                            <option value="microsoft office">MICROSOFT OFFCICE</option>
+                        </select>
+                    </div>
+                    <div class="name_btn">
+                        <input type="submit" name="submit" value="Submit" onclick="addDetail()">
+                        <input type="reset" name="reset" value="Clear">                   
+                    </div>
+                </form>
+               
+            </div>
+        </div>
+
+    </div>
+
+    <!-- -----FOOTER OF THE WEBSITE------- -->
+    <div class="footerall">
+        <div class="footer">
+            <ul>
+                <li><img src="images/ABClogo.png" alt="logo" width="80" height="60"></li>
+                <li>ABC LEARNING CENTER</li>
+                <li><a href="#contactus" style="color: #deaeeb;text-decoration:none">Contact Us</a></li>
+                <li><a href="#privacypolicy" style="color: #deaeeb;text-decoration:none">Privacy Policy</a></li>
+                <li><a href="#sitemap" style="color: #deaeeb;text-decoration:none">Sitemap</a></li>
+            </ul>
+        </div>
+        <div class="footer-socialmedia">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <p>&#169;Copyright. All Rights Reserved</p>
+        
+        </div>
+    </div>
+
+</body>
+</html>

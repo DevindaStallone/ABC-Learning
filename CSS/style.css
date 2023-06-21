@@ -1,0 +1,1060 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat&family=Passions+Conflict&family=Rubik+Dirt&display=swap');
+
+
+/* this is the header with navigation section of the website */
+.fullnavigation{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+}
+.head ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3e066b;
+    height: 80px;
+    
+}
+.head li{
+    float: left;
+    display: block;
+    color: rgba(204, 141, 247, 0.993);
+    text-align: center;
+    padding: 9px 16px;
+    text-decoration: none;
+}
+.search{
+    margin-top: 20px;
+    
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(30, 0, 54);
+}
+  
+.nav li {
+    float: left;
+}
+  
+.nav li a {
+    display: block;
+    color: rgb(212, 179, 235);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.nav li a:hover:not(.active) {
+    background-color: rgb(144, 68, 216);
+}
+/* this is the home page details css code file */
+.top{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    padding: 20px;
+    height: 600px;
+
+}
+.top h1{
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(231, 210, 255);
+
+}
+.top span{
+    color: rgb(198, 110, 233);
+    display: block;
+    font-family: 'Rubik Dirt', cursive;
+
+}
+.top img {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    z-index: -1;
+    height: 500px;
+    width: 100%;
+ 
+}
+.top p{
+    color: rgb(0, 202, 238);
+    text-align: center;
+    padding: 0 50px;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Cookie', cursive;
+
+}
+#title{
+    color: rgb(25, 117, 192);
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.top button{
+    background-color: rgb(210, 176, 241);
+    float: right;
+    margin-top: 35px;
+    border-radius: 8px;
+}
+.top button:hover{
+    background-color: #7639a8;
+}
+.top button a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px;
+    color: #3e066b;
+    
+    
+}
+.top button a:hover{
+    color: #ded5e9;
+}
+.middle{
+    background-color: #3e066b;
+    align-content: center;
+    padding-bottom: 40px;
+}
+.middle h2{
+    margin: 0;
+    padding: 30px 0 40px 30px;
+    color: #deaeeb;
+    background-color: #2d0d47;
+}
+.middle table{
+    width: 50%;
+    padding: 15px;
+    text-align: left;
+    margin: auto;
+    border-spacing: 30px;
+    box-shadow: 1px 1px 8px 10px #5f4e75;
+    margin-top: 50px;
+
+}
+
+.middle th, td{
+    padding: 0 30px;
+    color: rgb(66, 224, 87);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.middle td{
+    padding: 10px;
+    font-size: 17px;
+
+}
+.middle th{
+    font-weight: bold;
+    color: rgb(241, 241, 241);
+    text-decoration: overline double;
+    font-size: 18px;
+}
+
+.bottom h2{
+    background-color: #2d0d47;
+    margin: 0;
+    padding: 30px;
+    color: #deaeeb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+/* this is the about us page details css codes */
+.aboutus-top{
+    text-align: center;
+    padding-top: 10%;
+    color: rgb(177, 191, 223);
+    font-weight: bold;
+}
+.aboutus-top h1{
+    padding-bottom: 7px;
+}
+.aboutus-top h1 span{
+    color: rgba(204, 141, 247, 0.993);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Rubik Dirt', cursive;
+
+}
+.aboutus-bg-pic{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    padding: 20px;
+    height: 500px;
+
+}
+.aboutus-bg-pic img {
+    position: absolute;
+    left: 0px;
+    top: 216px;
+    z-index: -1;
+    height: 500px;
+    width: 100%;
+}
+.aboutus-bg-pic p{
+
+    color: #5c5eeb;
+    text-align: center;
+    padding: 270px 200px 20px 200px;
+    font-size: 18px;
+    margin: 0;
+}
+ 
+.aboutus-top p span{
+    display: block;
+    color: rgb(233, 56, 56);
+    font-size: 22px;
+    padding: 21px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.aboutus-middle h2{
+    color: rgba(204, 141, 247, 0.993);
+    padding: 25px 0 25px 30px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(30, 0, 54);
+    margin: 0;
+
+}
+.aboutus-middle .aboutus{
+    margin: auto;
+    padding: 30px;
+    border: 5px dashed rgb(30, 0, 54);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 75%;
+    height: 40%;
+}
+.aboutus-middle th{
+    padding: 25px 25px ;
+    margin: 0;
+}
+.aboutus-bottom h2{
+    background-color: rgb(30, 0, 54);
+    padding: 25px 0 25px 30px;
+    color: rgba(204, 141, 247, 0.993);
+    margin: 0;
+}
+
+
+
+
+.aboutus-bottom-2{
+    background-color: #7639a8;
+    margin: 0;
+    padding: 60px 0 60px 0;
+}
+.aboutus-bottom-2 table{
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    border-spacing: 30px;
+    box-shadow: 1px 1px 8px 10px #7d6a97;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+
+
+}
+.aboutus-bottom-2 th{
+    text-decoration: underline double;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(238, 71, 71);  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.aboutus-bottom-2 td{
+    font-size: 20px;
+    color: #ded5e9;
+    width: 25px;
+    text-align: left;
+    padding: 0 15px;
+    vertical-align: top;
+}
+
+
+
+/* this is the courses page details css code file  */
+
+.courses-heading{
+    text-align: center;
+    padding-top: 10%;
+    color: #deaeeb;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+section{
+    background-color: #2d0d47;
+}
+section table{
+    margin: auto;
+    padding: 10px;
+}
+section table th{
+    width: 50%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+}   
+.html{
+    border: 3px solid white;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 8px 8px #7d6a97;
+    margin: 10px;
+    float: left;
+    margin-left: 70px;
+    padding: 8px 10px;
+
+
+}
+.html img{
+    padding: 30px 50px;
+}
+.html h2{
+    color: #deaeeb;
+    font-size: 30px;
+    
+}
+.html p{
+    border: 2px solid wheat;
+    border-radius: 10px;
+    padding: 10px 20px 7px 20px;
+    margin: 50px;
+    color: rgb(135, 90, 207);  
+}
+
+.html button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #deaeeb;
+    box-shadow: 1px 1px 5px 4px #7d6a97;
+    margin: 20px 40px;
+}
+.html button a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #3a1755;
+}
+
+.MS{
+    border: 3px solid white;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 8px 8px #7d6a97;
+    margin: 100px;
+    margin-right: 70px;
+    padding: 10px 10px;
+
+
+}
+.MS img{
+    padding: 30px 50px;
+}
+.MS h2{
+    color: #deaeeb;
+    font-size: 30px;
+    
+}
+.MS p{
+    border: 2px solid wheat;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 50px;
+    color: rgb(135, 90, 207);  
+}
+
+.MS button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #deaeeb;
+    box-shadow: 1px 1px 5px 4px #7d6a97;
+    margin: 20px 40px;
+}
+.MS button a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #3a1755;
+
+}
+
+
+
+
+/* this is the contact us detail css code file */
+.contactus-heading{
+    margin-top: 10%;
+    text-align: center;
+    padding: 15px;
+    color: #e7b3f5;
+}
+table{
+    margin: auto;
+    height: 700px;
+    width: 100%;
+    background-color: #460479;
+
+}
+table th{
+    padding: 50px;
+
+
+}
+.location{
+    border: 3px solid rgb(178, 96, 199);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 8px 8px #6c617c;
+    padding: 80px 20px;
+    color: #e7b3f5;
+    
+}
+.location i{
+    padding-bottom: 70px;
+}
+.location p{
+    border: 3px solid rgb(178, 96, 199);
+    border-radius: 30px;
+    padding: 50px 20px;
+    color: #86d7f0;
+    
+}
+#phone{
+    vertical-align: top;
+}
+.phone{
+    border: 3px solid rgb(178, 96, 199);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 8px 8px #6c617c;
+    padding: 80px 50px;
+    color: #e7b3f5;
+}
+.phone i{
+    padding-bottom: 70px;
+
+    
+}
+.phone p{
+    border: 3px solid rgb(178, 96, 199);
+    border-radius: 30px;
+    padding: 50px 10px;
+    color: #86d7f0;
+    
+}
+.email{
+    border: 3px solid rgb(178, 96, 199);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 8px 8px #6c617c;
+    padding: 90px 20px;
+    color: #e7b3f5;
+}
+.email i{
+    padding-bottom: 70px;
+
+}
+.email p{
+    border: 3px solid rgb(178, 96, 199);
+    border-radius: 30px;
+    padding: 50px 20px;
+    
+}
+.email p a{
+    text-decoration: none;
+    color: #86d7f0;
+
+}
+
+.map-inquiry{
+    background-color:#2d0d47;
+    margin: auto;
+    width: 100%;
+
+}
+.map-inquiry th{
+    padding: 0;
+    vertical-align: top;
+
+
+}
+.map{
+    color: #deaeeb;
+    padding: 10px;
+    padding-top: 0;
+}
+.map h2{
+    text-align: left;
+    padding: 30px 0 40px 30px;
+    margin: 0;
+}
+.map iframe{
+    box-shadow: 1px 1px 8px 8px #786c8a;
+    border-radius: 30px;
+    float: left;
+    margin-left: 100px;
+
+}
+
+.inquiry{
+    color: #deaeeb;
+    margin: 0 100px 10px 100px;
+
+    
+}
+.inquiry h2{
+    padding-top: 20px;
+}
+.inquiry .inquiryBox{
+    text-align: left;
+    padding-top: 40px;
+
+}
+.inquiryBox form, input{
+    width: 300px;
+}
+.inquiryBox form .description{
+    height: 200px;
+}
+.inquiryBox button{
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: white;
+}
+.inquiryBox button a {
+    text-decoration: none;
+    color: #954da8;
+}
+.inquiryBox button:hover{
+    background-color: #1a032c;
+}
+.inquiryBox button a:hover{
+    color: #deaeeb;
+}
+#socialmedia{
+    color: #deaeeb;
+    padding-left: 20px;
+    font-weight: bold;
+    margin: 30px;
+}
+.contactus-bottom table{
+    background-color:#6905b6;
+    height: 250px;
+}
+
+.instagram h2, a{
+    padding: 20px 0;
+  
+
+}
+.facebook h2, a{
+    padding: 20px 0;
+   
+
+}
+.twitter h2, a{
+    padding: 20px 0;
+ 
+
+}
+.youtube h2, a{
+    padding: 20px 0;
+ 
+}
+.instagram i{
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 80px;
+    line-height: 110px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+
+}
+.facebook i{
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    border-radius: 50%;
+    color: #0433ce;
+    font-size: 110px;
+    line-height: 100px;
+    vertical-align: middle;
+    background: white;
+    padding-top: 5px;
+
+}
+.twitter i{
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 80px;
+    line-height: 100px;
+    vertical-align: middle;
+    background: rgb(53, 106, 252);
+    padding-top: 6px;
+
+}
+.youtube i{
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fcfcfc;
+    font-size: 80px;
+    line-height: 100px;
+    vertical-align: middle;
+    background: rgb(255, 18, 18);
+    padding-top: 6px;
+
+}
+
+
+
+/* this is the privacy policy page details css codes */
+.privacypolicy{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    padding: 20px;
+    height: 900px;
+
+}
+.privacypolicy h1{
+    margin-top: 10%;
+    text-align: center;
+    padding: 10px;
+    color: #deaeeb;
+
+}
+.privacypolicy img{
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    z-index: -1;
+    height: 800px;
+    width: 100%;
+}
+.privacypolicy p{
+    color: #a5a5ee;
+}
+.privacypolicy .paragraph{
+    font-size: 17px;
+    font-weight: bold;
+}
+.privacypolicy table {
+    background-color: #11ffee00;
+}
+.privacypolicy th{
+    color: #6f71e4;
+    text-align: left;
+    padding: 50px;
+    margin: 10px;
+}
+
+
+/* this is the sitemap css code */
+.sitemap h1{
+    color: #deaeeb;
+    text-align: center;
+    margin-top: 10%;
+    padding: 10px;
+}
+.sitemap th{
+    color: #deaeeb;
+    margin: auto;
+    padding: 30px 50px;
+    margin: 0;
+    text-align: left;
+    vertical-align: top;
+}
+.SitemapHome{
+    border: 2px solid #deaeeb;
+    border-radius: 30px;
+    padding: 48px 20px;
+}
+.SitemapAboutus{
+    border: 2px solid #deaeeb;
+    border-radius: 30px;
+    padding: 38px 20px;
+
+}
+.SitemapCourses{
+    border: 2px solid #deaeeb;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+.SitemapContactus{
+    border: 2px solid #deaeeb;
+    border-radius: 30px;
+    padding: 25px 20px;
+
+}
+.SitemapPrivacyPolicy{
+    border: 2px solid #deaeeb;
+    border-radius: 30px;
+    padding: 20px;
+    
+
+}
+.sitemap table{
+    height: 200px;
+}
+.sitemap h2{
+    color:#d6249f;
+}
+.privacysitemap {
+    background-color: #460479;
+}
+.privacysitemap table{
+    color: #deaeeb;
+    margin:auto;
+    width: 50%;
+}
+.privacysitemap th{
+    vertical-align: top;
+}
+
+/* ---------------------courses details page css------------------ */
+
+.details-heading{
+    margin-top: 12%;
+    color: #deaeeb;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.details-top{
+    background-color:#6905b6;
+    padding: 20px;
+}
+.details-top p{
+    color: #deaeeb;
+    font-size: 20px;
+    float: left;
+    padding: 50px;
+    width: 60%;
+}
+.details-top img{
+    display: inline;
+    margin-left: 100px;
+    width: 400px;    
+}
+.details-bottom {
+    background-color: #460479;
+}
+.details-bottom th{
+    color: #deaeeb;
+}
+.course-detail {
+    border: 5px solid #deaeeb;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #6905b6;
+}
+.course-detail h2{
+    font-weight: bold;
+}
+.course-detail p {
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.course-detail i {
+    padding-left: 20px;
+}
+.details-bottom button{
+    padding: 15px;
+    border-radius: 25px;
+    background-color: #deaeeb;
+    border: #deaeeb;
+    margin-left: 38%;
+    margin-bottom: 20px;
+   
+}
+.details-bottom button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.register button{
+    margin-left: 39.2%;
+}
+
+/* ------------------Courses schedule page css ----------- */
+
+.schedule-heading{
+    color: #deaeeb;
+    margin-top: 10%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.schedule-bottom{
+    color: #deaeeb;
+    background-color: #1a032c;
+}
+.schedule-bottom h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.syllabus-topics{
+    border: 3px solid #deaeeb;
+    border-radius: 25px;
+    padding: 20px;
+    height: 500px;
+}
+.timetable{
+    border: 3px solid #deaeeb;
+    border-radius: 25px;
+    padding: 20px;
+    height: 500px;
+
+}
+.lecturers{
+    border: 3px solid #deaeeb;
+    border-radius: 25px;
+    padding: 20px;
+    height: 500px;
+
+}
+.lecturers h2{
+    padding-bottom: 20px;
+}
+
+.lecturers img{
+    width: 75px;
+    height: 75px;
+    float: left ;
+}
+
+
+
+/* this is the footer section of the website */
+
+.footerall{
+    padding-top: 25px;
+}
+.footer li{
+    display: inline;
+    padding: 0 10px;
+    color:#deaeeb;
+    font-size: 20px;
+
+
+}
+.footer a{
+    padding: 0 70px;
+    text-decoration: none;
+    color: #deaeeb;
+    font-size: 20px;
+}
+.footer ul {
+    padding: 0 52px 0px;
+    margin: 0;
+    font-weight: bold;
+}
+.footer-socialmedia .fa {
+    padding: 18px;
+    font-size: 20px;
+    width: 55px;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 10px;
+    color:#3e066b;   
+}
+.footer-socialmedia{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #deaeeb;
+}
+.footer-socialmedia p{
+    margin: 0 0 10px 0;
+}
+
+
+
+/* -------------Image Slider CSS----------- */
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+  
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+  /* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* this is the css for the registratino form */
+
+.form-heading h1{
+    text-align: center;
+    color: #deaeeb;
+    margin-top: 11%;
+    font-weight: bold;
+}
+.form-heading h2{
+    color: #9563a3;
+    padding-left: 20px;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 20px;
+}
+.regBG{
+    z-index: -1;
+    position: absolute;
+    
+}
+.Reg_form{
+    color: #deaeeb;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+}
+
+form{
+    margin: 0 30px;
+    padding: 30px 0;
+}
+.name_det h3{
+    padding: 5px 0;
+}
+.name_det input{
+    margin: 0 7px;
+    color: rgb(77, 74, 74);
+    width: 300px;
+    height: 40px;
+    font-weight: 900;
+    background-color: #c7c7c7;
+    
+}
+.name_det select{
+    margin: 0 7px;
+    color: rgb(77, 74, 74);
+    height: 40px;  
+    font-weight: 900;
+    background-color: #c7c7c7;
+
+}
+
+.name_btn{
+    margin: 50px 0;  
+}
+
+.name_btn input{
+    margin: 0 20px;
+    width: 150px;
+    height: 40px;
+    background-color:#0433ce;
+    border: #0433ce;
+    border-radius: 15px;
+    color:#e7b3f5;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.name_btn2{
+    margin: 50px 0;  
+}
+
+.name_btn2 input{
+    margin: 0 20px;
+    width: 150px;
+    height: 40px;
+    background-color:#0433ce;
+    border: #0433ce;
+    border-radius: 15px;
+    color:#e7b3f5;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/* -------this is the css of thankyou page------ */
+.thankyou-heading{
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.thankyou-heading h1{
+    text-align: center;
+    margin-top: 5%;
+    color: #deaeeb;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.thankyou-heading p{
+    text-align: center;
+    color:#3652f0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.thankyou-heading img{
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+
+}
+
+
+

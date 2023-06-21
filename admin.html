@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin page</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="js/script.js"></script>
+    <style>
+        body{
+            background-color: #3e066b;
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .Reg_table table, th, td{
+            color: #deaeeb;
+            border: 3px solid #d6249f;
+
+        }
+        .Reg_table h2{
+            color: #deaeeb;
+            padding-left: 20px;
+
+        }
+        .Reg_table input{
+            background-color: #0433ce;
+            padding: 20px;
+            border-radius: 20px;
+            border: 0;
+            margin-left: 5%;
+            margin-bottom: 30px;
+            margin-top: 30px;
+            color: #deaeeb;
+            width: 150px;
+        }
+
+        .Reg_table table th{
+            vertical-align: top;
+            height: 50px;
+        }
+        .Reg_table{
+            overflow-x: scroll;
+
+        }
+
+
+       
+    </style>
+</head>
+<body>
+    <div class="form-heading">
+        <h1 style="margin-top: 3%;">LEAD REGISTRATION FORM</h1>
+        <h2>Fill out the Registration Form</h2>
+    </div>
+    <div class="Reg_form">
+        <img class="regBG" src="images/Regbg.jpg" alt="Registration bg image" width="100%" height="1077px">
+        <form action="thank-you.html" name="register" method="get" onsubmit="window.location.reload()">
+            <div class="name_det">
+
+                <h3>Student Name</h3>
+                <input type="text" name="firstname" placeholder="First Name" size="15" required/>
+                <input type="text" name="middlename" placeholder="Middle Name" size="15" required/>
+                <input type="text" name="lastname" placeholder="Last Name" size="15" required/>
+
+                <h3>Date of Birth</h3>
+                <input type="date" id="date_of_birth" name="date-of-birth">
+
+            
+                <h3>Gender</h3>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                
+
+                <h3>Address</h3>
+                <input type="text" name="address" placeholder="Address" size="15" required/>
+                <input type="text" name="zipcode" placeholder="Postal/Zip Code" size="15" required/>
+
+                <h3>Email ID</h3>
+                <input type="text" name="email" placeholder="example@example.com" size="15" required/>
+
+                <h3>Phone Number</h3>
+                <input type="text" name="number" placeholder="+94xx-xxxxxxx" size="15" required/>
+            </div>
+            <div class="name_det">
+                <h3>Qualifications</h3>
+                <select name="qualifications">
+                    <option value="GCE O/L">GCE O/L</option>
+                    <option value="GCE A/L">GCE A/L</option>
+                    <option value="Diploma">Diploma</option>
+                    <option value="Higher Diploma">Higher Diploma</option>
+                </select>
+            </div>
+            <div class="name_det">
+                <h3>Courses</h3>
+                <select name="courses">
+                    <option value="html">HTML</option>
+                    <option value="microsoft office">MICROSOFT OFFCICE</option>
+                </select>
+            </div>
+            <div class="name_btn2">
+                <input type="button" name="add" value="Add" onclick="addDetail()">
+                <input type="button" name="edit" value="Edit" onclick="editDetail()">
+                <input type="button" name="delete" value="Delete" onclick="deleteDetail()">
+            </div>
+        </form>
+       
+    </div>
+    <div class="Reg_table">
+        <h2>Registration Details</h2>
+    
+        <table id=list></table>
+        <label><input type="button" value="Clear" onclick="clearAll()">
+    </div>
+
+    
+</body>
+</html>
